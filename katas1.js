@@ -5,7 +5,7 @@
     }
       return lista;
   }
-console.log(oneThroughTwenty(20));
+console.log("exercicio 1: " + oneThroughTwenty(20));
    
 function evensToTwenty(n){
   let lista = [];
@@ -16,7 +16,7 @@ function evensToTwenty(n){
   }
     return lista;
 }
-console.log(evensToTwenty(20));
+console.log("exercicio 2: " + evensToTwenty(20));
 
 function oddsToTwenty(n) {
   let lista = [];
@@ -27,7 +27,7 @@ function oddsToTwenty(n) {
   }
     return lista;
 }
-console.log(oddsToTwenty(20));
+console.log("exercicio 3: " + oddsToTwenty(20));
 
 function multiplesOfFive(n) {
   let lista = [];
@@ -38,7 +38,7 @@ function multiplesOfFive(n) {
   }
     return lista;
 }
-console.log(multiplesOfFive(100));
+console.log("exercicio 4: " + multiplesOfFive(100));
 
 function squareNumbers(n) {
   let lista = [];
@@ -49,7 +49,7 @@ function squareNumbers(n) {
   }
     return lista;
 }
-console.log(squareNumbers(100));
+console.log("exercicio 5: " + squareNumbers(100));
 
 
 function countingBackwards(n) {
@@ -59,7 +59,7 @@ function countingBackwards(n) {
   }
     return lista.reverse()
 }
-console.log(countingBackwards(20));
+console.log("exercicio 6: " + countingBackwards(20));
 
 function evenNumbersBackwards(n) {
   let lista = [];
@@ -70,7 +70,7 @@ function evenNumbersBackwards(n) {
   }
     return lista.reverse()
 }
-console.log(evenNumbersBackwards(20));
+console.log("exercicio 7: " + evenNumbersBackwards(20));
 
 function oddNumbersBackwards(n) {
   let lista = [];
@@ -81,7 +81,7 @@ function oddNumbersBackwards(n) {
   }
     return lista.reverse()
 }
-console.log(oddNumbersBackwards(20));
+console.log("exercicio 8: " + oddNumbersBackwards(20));
 
 function multiplesOfFiveBackwards(n) {
   let lista = [];
@@ -92,7 +92,7 @@ function multiplesOfFiveBackwards(n) {
   }
     return lista.reverse()
 }
-console.log(multiplesOfFiveBackwards(100));
+console.log("exercicio 9: " + multiplesOfFiveBackwards(100));
 
 function squareNumbersBackwards(n) {
   let lista = [];
@@ -103,4 +103,4 @@ function squareNumbersBackwards(n) {
   }
     return lista.reverse()
 }
-console.log(squareNumbersBackwards(100));
+console.log("exercicio 10: " + squareNumbersBackwards(100));
