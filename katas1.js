@@ -1,94 +1,106 @@
-function oneThroughTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result*/
-    
-}
-
-//call function oneThroughTwenty
-
-function evensToTwenty() {
-    
-   /* Your code goes below
-   Write a for or a while loop
-   return the result */
-  
-}
-
-//call function evensToTwenty
-
-function oddsToTwenty() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+  function oneThroughTwenty(n){
+    let lista = [];
+    for(let i = 1; i <=  n; i++){
+      lista.push(i)
+    }
+      return lista;
+  }
+console.log(oneThroughTwenty(20));
    
+function evensToTwenty(n){
+  let lista = [];
+  for(let i = 1; i <= n; i++){
+    if (i % 2 == 0) {
+      lista.push(i)
+    }
+  }
+    return lista;
 }
+console.log(evensToTwenty(20));
 
-//call function oddsToTwenty
-
-function multiplesOfFive() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
-
+function oddsToTwenty(n) {
+  let lista = [];
+  for(let i = 1; i <= n; i++){
+    if (i % 2 != 0) {
+      lista.push(i)
+    }
+  }
+    return lista;
 }
+console.log(oddsToTwenty(20));
 
-//call function multiplesOfFive
-
-function squareNumbers() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
-    
+function multiplesOfFive(n) {
+  let lista = [];
+  for(let i = 1; i <= n; i++){
+    if (i % 5 == 0) {
+      lista.push(i)
+    }
+  }
+    return lista;
 }
+console.log(multiplesOfFive(100));
 
-//call function squareNumbers
-
-function countingBackwards() {
-    
-  /* Your code goes below
-  Write a for or a while loop
-  return the result */
+function squareNumbers(n) {
+  let lista = [];
+  for(let i = 1; i <= n; i++){
+    if (Number.isInteger(Math.sqrt(i))) {
+      lista.push(i)
+    }
+  }
+    return lista;
 }
+console.log(squareNumbers(100));
 
-//call function countingBackwards
 
-function evenNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+function countingBackwards(n) {
+  let lista = [];
+  for(let i = 1; i <=  n; i++){
+    lista.push(i)
+  }
+    return lista.reverse()
 }
+console.log(countingBackwards(20));
 
-//call function evenNumbersBackwards
-
-function oddNumbersBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+function evenNumbersBackwards(n) {
+  let lista = [];
+  for(let i = 1; i <= n; i++){
+    if (i % 2 == 0) {
+      lista.push(i)
+    }
+  }
+    return lista.reverse()
 }
+console.log(evenNumbersBackwards(20));
 
-//call function oddNumbersBackwards
-
-function multiplesOfFiveBackwards() {
-    
- /* Your code goes below
-  Write a for or a while loop
-  return the result */
+function oddNumbersBackwards(n) {
+  let lista = [];
+  for(let i = 1; i <= n; i++){
+    if (i % 2 != 0) {
+      lista.push(i)
+    }
+  }
+    return lista.reverse()
 }
+console.log(oddNumbersBackwards(20));
 
-//call function multiplesOfFiveBackwards
-
-function squareNumbersBackwards() {
-    
-   /* Your code goes below
-  Write a for or a while loop
-  return the result */
+function multiplesOfFiveBackwards(n) {
+  let lista = [];
+  for(let i = 1; i <= n; i++){
+    if (i % 5 == 0) {
+      lista.push(i)
+    }
+  }
+    return lista.reverse()
 }
+console.log(multiplesOfFiveBackwards(100));
 
-//call function squareNumbersBackwards
+function squareNumbersBackwards(n) {
+  let lista = [];
+  for(let i = 1; i <= n; i++){
+    if (Number.isInteger(Math.sqrt(i))) {
+      lista.push(i)
+    }
+  }
+    return lista.reverse()
+}
+console.log(squareNumbersBackwards(100));
